@@ -15,7 +15,10 @@
 		"name": "http2",
 		"image": "./Dockerfile",
 		"class_name": "Container",
-		"max_instances": 2
+		"max_instances": 2,
+		"image_vars": {
+			"CONTAINER_BLA": "blablabla"
+		}
 	}],
 	"durable_objects": {
 		"bindings": [
